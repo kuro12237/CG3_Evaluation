@@ -127,6 +127,12 @@
     <Filter Include="CLEYERA\Model\Cube">
       <UniqueIdentifier>{e412e551-47a5-42ed-ae39-05603aeb4f80}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Project\Object">
+      <UniqueIdentifier>{a7e23e7b-8206-4319-90c5-7f8ab6fc9c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Object\PlaneParticles">
+      <UniqueIdentifier>{ff0512d3-a70a-4666-84db-44fda8c04da6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="CLEYERA\Config\.editorconfig">
@@ -269,6 +275,15 @@
     </ClCompile>
     <ClCompile Include="CLEYERA\Audio\AudioDataResource.cpp">
       <Filter>CLEYERA\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scene\PlaneParticle\PlaneParticleScene.cpp">
+      <Filter>Project\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\GameObject\MainCamera\MainCamera.cpp">
+      <Filter>Project\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\GameObject\PlaneParticles\Planeparticles.cpp">
+      <Filter>Project\Object\PlaneParticles</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -445,6 +460,15 @@
     </ClInclude>
     <ClInclude Include="CLEYERA\Audio\AudioDataResource.h">
       <Filter>CLEYERA\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scene\PlaneParticle\PlaneParticleScene.h">
+      <Filter>Project\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\GameObject\MainCamera\MainCamera.h">
+      <Filter>Project\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\GameObject\PlaneParticles\Planeparticles.h">
+      <Filter>Project\Object\PlaneParticles</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

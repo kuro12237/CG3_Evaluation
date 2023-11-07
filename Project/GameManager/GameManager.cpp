@@ -3,7 +3,7 @@
 GameManager::GameManager()
 {
 	Cleyera::Initialize();
-	Scene_ = new DebugScene();
+	Scene_ = new PlaneParticleScene();
 	Scene_->Initialize();
 }
 
