@@ -135,12 +135,11 @@ SPSOProperty ParticlePlaneState::Get3dParticlePipeline(Particle* state)
 		PSO = GraphicsPipelineManager::GetInstance()->GetPso().Particle3d.Add;
 		break;
 	case BlendSubtruct:
-		assert(0);
-		PSO = GraphicsPipelineManager::GetInstance()->GetPso().Sprite2d.Subtruct;
+		PSO = GraphicsPipelineManager::GetInstance()->GetPso().Particle3d.Subtruct;
 		break;
 	case BlendMultiply:
-		assert(0);
-		PSO = GraphicsPipelineManager::GetInstance()->GetPso().Sprite2d.Multiply;
+		
+		PSO = GraphicsPipelineManager::GetInstance()->GetPso().Particle3d.Multiply;
 		break;
 	case BlendScreen:
 		assert(0);

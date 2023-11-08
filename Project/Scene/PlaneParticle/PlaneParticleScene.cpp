@@ -16,6 +16,12 @@ void PlaneParticleScene::Initialize()
 void PlaneParticleScene::Update(GameManager* Scene)
 {
 	Scene;
+	if (Input::PushKeyPressed(DIK_N))
+	{
+		Scene->ChangeState(new FireParticleScene);
+		return;
+	}
+
 	DebugTools::UpdateExecute(0);
 
 	particle_->Update();

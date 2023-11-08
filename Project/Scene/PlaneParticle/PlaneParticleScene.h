@@ -5,6 +5,8 @@
 #include"DebugTools/Grid/Grid.h"
 #include"GameObject/MainCamera/MainCamera.h"
 #include"GameObject/PlaneParticles/Planeparticles.h"
+#include"FireParticle/FireParticleScene.h"
+#include"GameManager.h"
 
 class PlaneParticleScene : public IScene
 {

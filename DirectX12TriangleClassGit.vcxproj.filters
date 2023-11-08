@@ -285,6 +285,12 @@
     <ClCompile Include="Project\GameObject\PlaneParticles\Planeparticles.cpp">
       <Filter>Project\Object\PlaneParticles</Filter>
     </ClCompile>
+    <ClCompile Include="Project\Scene\FireParticle\FireParticleScene.cpp">
+      <Filter>Project\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\GameObject\FireParticles\FireParticle.cpp">
+      <Filter>Project\Object</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLEYERA\Utility\Pch\Pch.h">
@@ -469,6 +475,12 @@
     </ClInclude>
     <ClInclude Include="Project\GameObject\PlaneParticles\Planeparticles.h">
       <Filter>Project\Object\PlaneParticles</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scene\FireParticle\FireParticleScene.h">
+      <Filter>Project\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\GameObject\FireParticles\FireParticle.h">
+      <Filter>Project\Object</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
